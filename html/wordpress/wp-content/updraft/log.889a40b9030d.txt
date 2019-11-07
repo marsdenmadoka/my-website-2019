@@ -1,0 +1,202 @@
+0000.000 (0) Opened log file at time: Tue, 29 Oct 2019 13:59:29 +0000 on http://127.0.0.1/wordpress
+0000.043 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.2.19-0ubuntu0.18.04.2 (apache2handler, Linux madoka 4.15.0-55-generic #60-Ubuntu SMP Tue Jul 2 18:22:20 UTC 2019 x86_64) MySQL: 5.7.27-0ubuntu0.18.04.1 WPLANG: en_US Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 6.6M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.083 (0) Free space on disk containing Updraft's temporary directory: 364600.7 MB
+0000.152 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.201 (0) Semaphore (fd, wp_options) being initialised
+0000.350 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.600 (0) Set semaphore last lock (fd) time to 2019-10-29 13:59:30
+0000.650 (0) Semaphore lock (fd) complete
+0000.866 (0) Backup run: resumption=0, nonce=889a40b9030d, file_nonce=889a40b9030d begun at=1572357569 (1s ago), job type=backup
+0000.966 (0) Scheduling a resumption (1) after 300 seconds (1572357870) in case this run gets aborted
+0001.081 (0) Checking if we have a zip executable available
+0001.133 (0) Testing: /usr/bin/zip
+0001.186 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.233 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.283 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.333 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.383 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.436 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.483 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.533 (0) Working binary zip found: /usr/bin/zip
+0001.708 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.759 (0) Creation of backups of directories: beginning
+0001.918 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.386 (0) Total entities for the zip file: 705 directories, 4278 files (0 skipped as non-modified), 61.2 MB
+0002.453 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.553 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.598 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.736 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.780 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.826 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 4278 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.456 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: size is now: 4.40 MB
+0004.561 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 600 files added (on-disk size: 4519.1 KB)
+0004.616 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 700 files added (on-disk size: 4519.1 KB)
+0004.666 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 800 files added (on-disk size: 4519.1 KB)
+0004.716 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 900 files added (on-disk size: 4519.1 KB)
+0004.766 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1000 files added (on-disk size: 4519.1 KB)
+0004.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 4278 files batched, 501 (1002) added so far); re-opening (prior size: 4519.1 KB)
+0005.499 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: size is now: 6.70 MB
+0005.606 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1100 files added (on-disk size: 6818.2 KB)
+0005.665 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1200 files added (on-disk size: 6818.2 KB)
+0005.715 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1300 files added (on-disk size: 6818.2 KB)
+0005.766 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1400 files added (on-disk size: 6818.2 KB)
+0005.815 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1500 files added (on-disk size: 6818.2 KB)
+0005.863 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 4278 files batched, 501 (1503) added so far); re-opening (prior size: 6818.2 KB)
+0006.376 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1600 files added (on-disk size: 8041.5 KB)
+0006.416 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1700 files added (on-disk size: 8041.5 KB)
+0006.466 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1800 files added (on-disk size: 8041.5 KB)
+0006.516 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 1900 files added (on-disk size: 8041.5 KB)
+0006.566 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2000 files added (on-disk size: 8041.5 KB)
+0006.615 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 4278 files batched, 501 (2004) added so far); re-opening (prior size: 8041.5 KB)
+0007.182 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2100 files added (on-disk size: 9272.7 KB)
+0007.232 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2200 files added (on-disk size: 9272.7 KB)
+0007.282 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2300 files added (on-disk size: 9272.7 KB)
+0007.332 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2400 files added (on-disk size: 9272.7 KB)
+0007.382 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2500 files added (on-disk size: 9272.7 KB)
+0007.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 4278 files batched, 501 (2505) added so far); re-opening (prior size: 9272.7 KB)
+0008.108 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2600 files added (on-disk size: 10514.5 KB)
+0008.159 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2700 files added (on-disk size: 10514.5 KB)
+0008.211 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2800 files added (on-disk size: 10514.5 KB)
+0008.283 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 2900 files added (on-disk size: 10514.5 KB)
+0008.334 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3000 files added (on-disk size: 10514.5 KB)
+0008.382 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 4278 files batched, 501 (3006) added so far); re-opening (prior size: 10514.5 KB)
+0008.726 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3100 files added (on-disk size: 12573.5 KB)
+0008.776 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3200 files added (on-disk size: 12573.5 KB)
+0008.830 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3300 files added (on-disk size: 12573.5 KB)
+0008.884 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3400 files added (on-disk size: 12573.5 KB)
+0008.937 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3500 files added (on-disk size: 12573.5 KB)
+0008.983 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 4278 files batched, 501 (3507) added so far); re-opening (prior size: 12573.5 KB)
+0009.196 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3600 files added (on-disk size: 13296 KB)
+0009.252 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3700 files added (on-disk size: 13296 KB)
+0009.302 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3800 files added (on-disk size: 13296 KB)
+0009.352 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 3900 files added (on-disk size: 13296 KB)
+0009.402 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 4000 files added (on-disk size: 13296 KB)
+0009.451 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 MB, 4278 files batched, 501 (4008) added so far); re-opening (prior size: 13296 KB)
+0010.393 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: size is now: 17.00 MB
+0010.500 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 4100 files added (on-disk size: 17380.6 KB)
+0010.550 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip.tmp: 4200 files added (on-disk size: 17380.6 KB)
+0011.473 (0) Created plugins zip (0) - 19946.8 KB in 9.5 s (2098.6 KB/s) (sha1: fc47cbbbb5c0f78cb22e0953ba7db11d0edc05c4, sha256: 2200ade8d5d76f010ad84fe7f11da7550ef3433ed338be4c4db8c5c9eb97d5cc)
+0011.556 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.737 (0) Total entities for the zip file: 141 directories, 738 files (0 skipped as non-modified), 12.6 MB
+0011.802 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.926 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.977 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.027 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.077 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0012.126 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 738 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0012.762 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: size is now: 2.50 MB
+0012.878 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 600 files added (on-disk size: 2517.8 KB)
+0012.926 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: 700 files added (on-disk size: 2517.8 KB)
+0013.591 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip.tmp: size is now: 4.50 MB
+0013.823 (0) Created themes zip (0) - 4603.8 KB in 2.2 s (2069.3 KB/s) (sha1: e05cb61d941f69999b521572b4b7a6243dc0be32, sha256: 11d77de3e4d8b24cf61c2e3a0631a78b29774e47f8e55bfdd054c314c093bdbf)
+0013.915 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0013.957 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content/uploads
+0013.998 (0) finding files: elementor: adding to list (1)
+0014.040 (0) finding files: 2019: adding to list (2)
+0014.081 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.168 (0) Total entities for the zip file: 5 directories, 208 files (0 skipped as non-modified), 11.8 MB
+0014.216 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.261 (0) Zip: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.884 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-uploads.zip.tmp: size is now: 11.20 MB
+0015.230 (0) Created uploads zip (0) - 11429.3 KB in 1.1 s (10334.2 KB/s) (sha1: ccb36ea7ae774b56ebb4fda2e01a048029076d28, sha256: 30fe4d5ebbb521472c184965a31640309ccaaa4cf4db26c8333ce4676a4adebe)
+0015.330 (0) Beginning backup of other directories found in the content directory (index: 0)
+0015.380 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0015.429 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content
+0015.479 (0) finding files: uploads: skipping: this is the uploads directory
+0015.529 (0) finding files: themes: skipping: this is the themes directory
+0015.579 (0) finding files: cache: skipping: excluded by options
+0015.629 (0) finding files: index.php: adding to list (1)
+0015.804 (0) finding files: upgrade: skipping: excluded by options
+0015.855 (0) finding files: w3tc-config: adding to list (2)
+0015.905 (0) finding files: plugins: skipping: this is the plugins directory
+0015.956 (0) finding files: updraft: skipping: this is the updraft directory
+0016.056 (0) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 0 MB
+0016.137 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-others.zip.tmp: size is now: 0.00 MB
+0016.347 (0) Created others zip (0) - 6.2 KB in 0.3 s (18.3 KB/s) (sha1: 0cd768bc3491a6d9a37e3f6d5628b13507c5a345, sha256: c8715ce11775fbdd9e8eafa794f14481ae999d30cc8b6a433bc897851d06b76b)
+0016.547 (0) Saving backup status to database (elements: 8)
+0016.647 (0) Beginning creation of database dump (WordPress DB)
+0016.786 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0017.460 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1210 bytes total)
+0017.545 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0017.813 (0) Table wp_options: Total expected rows (approximate): 266
+0017.906 (0) Table wp_options: Total rows added: 267 in 0.05 seconds
+0017.971 (0) Table wp_options: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_options.table.gz - 249.6 KB)
+0018.096 (0) Table wp_users: Total expected rows (approximate): 0
+0018.139 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0018.186 (0) Table wp_users: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_users.table.gz - 0.5 KB)
+0018.338 (0) Table wp_usermeta: Total expected rows (approximate): 26
+0018.388 (0) Table wp_usermeta: Total rows added: 26 in 0.00 seconds
+0018.437 (0) Table wp_usermeta: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_usermeta.table.gz - 1.4 KB)
+0018.588 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0018.638 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0018.687 (0) Table wp_commentmeta: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0018.837 (0) Table wp_comments: Total expected rows (approximate): 0
+0018.888 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0018.937 (0) Table wp_comments: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_comments.table.gz - 0.5 KB)
+0019.209 (0) Table wp_links: Total expected rows (approximate): 0
+0019.265 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0019.346 (0) Table wp_links: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_links.table.gz - 0.4 KB)
+0019.497 (0) Table wp_postmeta: Total expected rows (approximate): 1062
+0019.848 (0) Table wp_postmeta: Total rows added: 1100 in 0.30 seconds
+0019.887 (0) Table wp_postmeta: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_postmeta.table.gz - 535.9 KB)
+0020.037 (0) Table wp_posts: Total expected rows (approximate): 212
+0022.708 (0) Table wp_posts: Total rows added: 230 in 2.62 seconds
+0022.781 (0) Table wp_posts: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_posts.table.gz - 7973.5 KB)
+0022.907 (0) Table wp_term_relationships: Total expected rows (approximate): 15
+0022.971 (0) Table wp_term_relationships: Total rows added: 15 in 0.02 seconds
+0023.014 (0) Table wp_term_relationships: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0023.157 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0023.209 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.00 seconds
+0023.264 (0) Table wp_term_taxonomy: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0023.482 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0023.533 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0023.581 (0) Table wp_termmeta: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_termmeta.table.gz - 0.4 KB)
+0023.731 (0) Table wp_terms: Total expected rows (approximate): 5
+0023.782 (0) Table wp_terms: Total rows added: 5 in 0.00 seconds
+0023.831 (0) Table wp_terms: finishing file (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_terms.table.gz - 0.5 KB)
+0023.981 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_options.table.gz (1/12): adding to final database dump
+0024.091 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_users.table.gz (2/12): adding to final database dump
+0024.155 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0024.207 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0024.257 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0024.307 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_links.table.gz (6/12): adding to final database dump
+0024.359 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0024.592 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0027.253 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0027.291 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0027.341 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0027.383 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0027.425 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db.gz: finished writing out complete database file (8736 KB)
+0027.707 (0) Total database tables backed up: 12 (backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db.gz, size: 8971648, sha1: 834d37190ee5cddc4aae4b6a72658ac0089d1456, sha256: f69209adcb9426eda83d53bdc64af8cfee5c1bfd9194e5215627238bb47e3f25)
+0027.898 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0027.941 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0027.990 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0028.040 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0028.082 (0) backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0028.123 (0) Saving backup history. Total backup size: 43.7 MB
+0028.217 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0028.348 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0028.390 (0) No remote despatch: user chose no remote backup service
+0028.448 (0) Recording as successfully uploaded: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-plugins.zip
+0028.532 (0) Recording as successfully uploaded: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-themes.zip
+0028.623 (0) Recording as successfully uploaded: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-uploads.zip
+0028.723 (0) Recording as successfully uploaded: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-others.zip
+0028.823 (0) Recording as successfully uploaded: backup_2019-10-29-1359_marsden_madoka_889a40b9030d-db.gz
+0028.975 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0029.024 (0) Number of backup sets in history: 1; groups (db): 1
+0029.073 (0) Examining (for databases) backup set with group_id=0, nonce=889a40b9030d, datestamp=1572357569 (Oct 29 2019 13:59:29)
+0029.123 (0) This backup set is the backup set just made, so will not be deleted.
+0029.123 (0) Number of backup sets in history: 1; groups (files): 1
+0029.173 (0) Examining (for files) backup set with nonce=889a40b9030d, datestamp=1572357569 (Oct 29 2019 13:59:29)
+0029.173 (0) This backup set is the backup set just made, so will not be deleted.
+0029.223 (0) This backup set is the backup set just made, so will not be deleted.
+0029.273 (0) This backup set is the backup set just made, so will not be deleted.
+0029.273 (0) This backup set is the backup set just made, so will not be deleted.
+0029.273 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.322 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0029.431 (0) Resume backup (889a40b9030d, 0): finish run
+0029.605 (0) Decremented the semaphore (fd) by 1
+0029.739 (0) Semaphore (fd) unlocked
+0029.805 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0029.966 (0) No email will/can be sent - the user has not configured an email address.
+0030.015 (0) The backup apparently succeeded and is now complete
